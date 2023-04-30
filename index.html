@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Сайт з кольоровими блоками</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-between;
+      }
+
+      .top {
+        background-color: #f44336;
+        height: 20%;
+      }
+
+      .middle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50%;
+      }
+
+      .left {
+        background-color: #9c27b0;
+        width: 30%;
+      }
+
+      .center {
+        background-color: #2196f3;
+        width: 30%;
+      }
+
+      .right {
+        background-color: #4caf50;
+        width: 30%;
+      }
+
+      .bottom {
+        background-color: #ff9800;
+        height: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top"></div>
+      <div class="middle">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+      </div>
+      <div class="bottom"></div>
+    </div>
+  </body>
+</html>
